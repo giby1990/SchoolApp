@@ -55,11 +55,11 @@ $cakeDescription = 'E-Learner MS';
 
 <div class="row">
     <div class="columns large-6 text-center">
-        <p><h5 class="more h5button" onclick="loadLearners();">Learners</h5></p>
-        <p><h5 class="more h5button" onclick="loadTransferHistory();">Transfer History</h5></p>        
+        <p><h5 class="more h5button" onclick="loadLearners();" style="cursor: pointer;">Learners</h5></p>
+        <p><h5 class="more h5button" onclick="loadTransferHistory();" style="cursor: pointer;">Transfer History</h5></p>        
     </div>
     <div class="columns large-6 text-center">
-        <p><h5 class="more h5button" onclick="loadSchools();">Schools</h5></p>
+        <p><h5 class="more h5button" onclick="loadSchools();" style="cursor: pointer;">Schools</h5></p>
     </div>
     <hr/>
 </div>
