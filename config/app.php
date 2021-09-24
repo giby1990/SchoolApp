@@ -18,9 +18,7 @@ return [
      * true: Errors and warnings shown.
      */
     'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
-    'DebugKit' => [
-        'forceEnable' => true,
-    ],
+
     /*
      * Configure basic information about the application.
      *
